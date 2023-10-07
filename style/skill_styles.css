@@ -1,0 +1,132 @@
+div#app {
+    margin-top: 80px;
+    width: 100%;
+}
+
+.skill {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    justify-content: space-around;
+    align-items: stretch;
+    background-color: black;
+    padding: 20px 10px;
+    margin-bottom: 30px;
+    border-radius: 20px;
+}
+
+div#skill-logo {
+    font-size: 1000%;
+    text-align: center;
+    padding: 10px;
+    background-color: #1a1c1c;
+    width: 30%;
+    border-radius: 10px;
+}
+
+.skill-content {
+    width: 60%;
+    background-color: #1a1c1c;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: left;
+    color: white;
+    font-size:115%;
+}
+ @media screen and (max-width:700px) {
+        .skill{
+        flex-direction:column;
+            align-content:space-around;
+            align-items:center;
+            width:90%;
+        }
+        div#skill-logo {
+            width:90%;
+        }
+        .skill-content {
+            width:90%;
+            margin-top:15px;
+        }
+        }
+    @media screen and (min-width:700px) {
+       .skill{
+        flex-direction:row;
+            align-content:flex-start;
+           align-items:stretch;
+        }
+    }
+button#certificatesButton {
+    padding: 5px 10px;
+    width: 90%;
+    border-radius: 10px;
+    font-size: 140%;
+    font-weight: bolder;
+    text-align: left;
+    background-color: #1a1c1c;
+    color: white;
+    border: 3px solid slateblue;
+    max-width: 650px;
+    margin-bottom:20px;
+    box-shadow:0px 0px 10px lightblue;
+}
+
+div#certificatesARE {
+    background-color: #1a1c1c;
+    width: 90%;
+    max-width: 650px;
+    margin-top: 15px;
+    border-radius: 5px;
+    color: white;
+    padding: 10px 5px;
+}
+
+center#certificateName {
+    font-weight: bolder;
+    font-size: 110%;
+}
+
+.mylearning ul {
+    list-style-type: none;
+}
+
+.mylearning li {
+    background-image: radial-gradient(#18a121,white, transparent);
+}
+
+.profileTitle {
+    width: 90%;
+    max-width: 650px;
+    padding: 10px 5px;
+    margin-top: 10px;
+    border-radius: 10px;
+    color: white;
+    font-weight: bolder;
+    font-size: 120%;
+    background-color: slateblue;
+    margin-bottom: 10px;
+}
+
+.learningProfilesLinks div {
+    margin-bottom: 5px;
+}
+
+.learningProfilesLinks div {
+    font-weight: bolder;
+    background-color: #1a1c1c;
+    width: 90%;
+    max-width: 650px;
+    border-radius: 5px;
+    padding: 10px;
+    color: white;
+    font-size: 130%;
+    text-align: left;
+}
+
+.learningProfilesLinks div:hover {
+    transition: transform 1s;
+    transform: scale(1.1);
+}
+.mylearning {
+    margin-bottom: 70px;
+}
